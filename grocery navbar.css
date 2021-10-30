@@ -1,0 +1,203 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(240, 240, 240);
+}
+.navbar {
+  width: 100%;
+  background-color: tomato;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+}
+.logo {
+  width: 20%;
+  background-color: rgba(247, 250, 82, 0.979);
+  height: 70px;
+  padding-left: 30px;
+}
+.nav-content {
+  width: 80%;
+  background-color: rgba(247, 250, 82, 0.979);
+}
+.nav-content ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+.nav-content a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+li {
+  margin-right: 20px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.nav-dropdown {
+  display: none;
+}
+.nav-content ul li:hover .nav-dropdown {
+  display: block;
+  position: absolute;
+  background: rgb(247, 250, 82, 0.979);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.nav-content ul li:hover .nav-dropdown ul {
+  display: block;
+  margin: 10px;
+  margin-left: -15px;
+}
+.nav-content ul li:hover .nav-dropdown ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted black;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.nav-content ul li:hover .nav-dropdown ul li:last-child {
+  border-bottom: none;
+}
+.nav-content ul li:hover .nav-dropdown ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+.backgrounds {
+  background-size: cover;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/food.jpg);
+  height: 300px;
+  margin-top: -22px;
+}
+.background-text {
+  text-align: center;
+  padding-top: 60px;
+}
+.background-button button {
+  background-color: rgb(247, 250, 82, 0.979);
+  justify-content: center;
+  padding: 10px 35px;
+  margin-left: 610px;
+  border-radius: 20px;
+}
+h2 {
+  text-align: center;
+}
+.grid-layout {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.grid1 {
+  text-align: center;
+  border: 0.1px;
+  box-shadow: rgba(101, 243, 65, 0.918) 0px 2px 4px,
+    rgba(101, 243, 65, 0.918) 0px 7px 13px -3px,
+    rgba(101, 243, 65, 0.918) 0px -3px 0px inset;
+  border-radius: 10px;
+}
+.grid-2 {
+  text-align: center;
+  border: 0.1px;
+  box-shadow: rgba(247, 250, 82, 0.979) 0px 2px 4px,
+    rgba(247, 250, 82, 0.979) 0px 7px 13px -3px,
+    rgba(247, 250, 82, 0.979) 0px -3px 0px inset;
+}
+.works {
+  background-color: rgba(247, 250, 82, 0.979);
+  display: grid;
+  grid-row-gap: 8px;
+  grid-column-gap: 10px;
+  grid-template-columns: 300px 300px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -60px;
+  justify-content: center;
+}
+
+.works-inside {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.works-text {
+  background-color: rgba(247, 250, 82, 0.979);
+  text-align: center;
+  padding: 50px;
+}
+
+.partner-logos {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+.footer {
+  background-color: rgba(247, 250, 82, 0.979);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+.footer p {
+  font-size: 10px;
+  margin-top: -10px;
+}
+span {
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  border: none;
+  width: 300px;
+  height: 30px;
+  padding: 0 15px;
+  border-radius: 20px;
+}
+input[type="submit"] {
+  margin-left: -70px;
+  height: 20px;
+  width: 60px;
+  background: black;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 10px;
+}
+.footer-links a:hover {
+  color: white;
+}
+hr {
+  width: 80%;
+  border-top: 0px white;
+}

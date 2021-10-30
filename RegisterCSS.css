@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  background-image: url(../images/Dark\ gradient.jpg);
+  background-size: cover;
+}
+.main-box {
+  width: 700px;
+  height: 700px;
+  margin-left: 325px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: yellow;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logo-box {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  background-image: url(../images/gradient.jpg);
+}
+.form-box {
+  width: 50%;
+  height: 100%;
+  background-color: tomato;
+  flex-direction: row;
+}
+.logo {
+  margin-top: 235px;
+  margin-left: 55px;
+}
+.heading {
+  text-align: center;
+  margin-top: 65px;
+}
+.heading h1 {
+  font-size: 20px;
+}
+form {
+  margin-left: 65px;
+}
+button {
+  background-color: turquoise;
+  padding: 10px 42px;
+}
+input {
+  height: 30px;
+}
